@@ -1,0 +1,23 @@
+widget -> primary elements, widget that is not embedded in a parent us called a window
+everything is a widget -> QTextEdit, QLabel
+
+QWidget that has a parent can become a window by setting the window flag.
+QMainwindow class set the window flag in its constructor
+
+1)QMainWindow provides a framework for building the application's main user interface
+
+2)DialogWindow are used as secondary windows that present the user with options and choice
+
+window size
+- Including the window frame: 
+    - x() = return x position
+    - y() = return y position
+    - frameGeometry() = .height(), .width() = retur back width and height of the window
+    - pos() 
+    - move() 
+- Excluding the window frame
+    - geometry() 
+    - width() 
+    - height() 
+    - rect() 
+    = size() 
