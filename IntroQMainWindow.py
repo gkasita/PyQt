@@ -1,3 +1,5 @@
+#version 1: setting everything up in global scope
+
 from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton
 import sys
 
